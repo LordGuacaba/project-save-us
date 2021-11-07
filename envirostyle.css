@@ -1,3 +1,49 @@
 html {
     background-color: white;
 }
+
+nav {
+    background-color: rgb(24, 170, 109);
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav li{
+    display: inline-block;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    font-family: Verdana;
+    text-decoration: none;
+}
+
+#logo {
+    height: 60px;
+    width: 60px;
+    text-align: left;
+}
+
+#login-signup {
+    width: 1200px;
+    text-align: right;
+}
+
+header {
+    text-align: center;
+}
+
+#searchbar {
+    margin: 0 415px;
+    display: inline-block;
+    text-align: center;
+}
+
+#search {
+    width: 600px;
+    height: 30px;
+
+}
