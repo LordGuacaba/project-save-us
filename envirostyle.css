@@ -2,6 +2,7 @@ html {
     background-color: white;
 }
 
+/* This section of navs is the styling of the navigation bar that's been pasted into each html file */
 nav {
     background-color: rgb(24, 170, 109);
 }
@@ -21,6 +22,7 @@ nav a {
     text-decoration: none;
 }
 
+/* These two sections style the individual elements within the nav bar */
 #logo {
     height: 60px;
     width: 60px;
@@ -32,16 +34,20 @@ nav a {
     text-align: right;
 }
 
+/* This sets up the header and heading 1 styles for the pages; some of this may need to be moved if it looks weird on certain pages */
 header {
     text-align: center;
-    display: block
+    font-family: 'Mukta', sans-serif;
+    display: block;
 }
 
 h1 {
-    font-family: 'Lucida Sans';
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
     font-size: 48px;
 }
 
+/* These specifically pertain to the search bar on the homepage */
 #searchbar {
     margin: auto;
     display: block;
@@ -53,7 +59,20 @@ h1 {
     height: 30px;
 }
 
+#search-button {
+    height:25px;
+    width: 80px;
+}
+
+/* This class is for center-of-attention text on pages that occupies the forefront of the space */
+/* I've used this for the website description and "our mission" text on the homepage */
 .center-text {
     margin: 0 100px;
     font-family: Verdana;
+}
+
+/* This class is for lining up and spacing the results for searches; not sure how helpful this will be besides on search-results and product-tracking */
+.results {
+    display: inline-block;
+
 }
