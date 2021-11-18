@@ -34,16 +34,26 @@ nav a {
 
 header {
     text-align: center;
+    display: block
+}
+
+h1 {
+    font-family: 'Lucida Sans';
+    font-size: 48px;
 }
 
 #searchbar {
-    margin: 0 415px;
-    display: inline-block;
+    margin: auto;
+    display: block;
     text-align: center;
 }
 
 #search {
     width: 600px;
     height: 30px;
+}
 
+.center-text {
+    margin: 0 100px;
+    font-family: Verdana;
 }
