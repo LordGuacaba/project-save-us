@@ -20,3 +20,29 @@
          </nav>
     </body>
 </html>
+
+<h4>Affiliation Registration</h4>
+
+<script>
+    function submitAffiliation() {
+        window.location.href = "account-page.html"
+    }
+</script>
+
+<div>
+    <form>
+        <label for="company-name-box">Company Name</label>
+        <input type="text" id="company-name-box">
+
+        <label for="company-location-box">Location</label>
+        <input type="text" id="company-location-box">
+
+        <label for="company-position-box">Position</label>
+        <input type="text" id="company-position-box">
+
+        <label for="company-poe-box">Proof of Employment</label>
+        <input type="text" id="company-poe-box">
+
+        <button type="submit" onclick="submitAffiliation()">Submit</button>
+    </form>
+</div>
