@@ -41,6 +41,19 @@ header {
     display: block;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(24, 170, 109)
+}
+
+a:active {
+    color:rgb(28, 112, 77)
+}
+
 h1 {
     font-family: 'Mukta', sans-serif;
     font-weight: bold;
@@ -74,5 +87,11 @@ h1 {
 /* This class is for lining up and spacing the results for searches; not sure how helpful this will be besides on search-results and product-tracking */
 .results {
     display: inline-block;
-
+    margin: 40px;
+    font-size: 120%;
 }
+
+.results a {
+    padding: 15px;
+}
+
