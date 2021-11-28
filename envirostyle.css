@@ -22,6 +22,10 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color:rgb(28, 112, 77);
+}
+
 /* These two sections style the individual elements within the nav bar */
 #logo {
     height: 60px;
@@ -95,3 +99,16 @@ h1 {
     padding: 15px;
 }
 
+.search-result {
+    border: 1px solid lightgray;
+}
+
+footer {
+    background-color: lightgreen;
+    text-align: center;
+    padding: 30px;
+}
+
+footer a {
+    padding: 15px;
+}
