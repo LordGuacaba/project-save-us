@@ -18,6 +18,14 @@
                 <li><a href="create-account.html">Create Account</a></li>
             </ul>
          </nav>
+        <script>
+             // Provides functionality for the search submissions button.
+             function updateAccount() {
+                 window.location.href = "account-page.html"
+             }
+         </script> 
+        </div>
+        <div align="center">
         <header>Update Account Information</header>
         <form method="post" action = account-page.html>
             First Name: <input type="text", id = "FN" > <br>
@@ -29,6 +37,7 @@
             Confirm password: <input type="password", id = "confirm"><br>
             <input type="submit" value="Update">
         </form>
+        <button onclick="updateAccount()">Submit</button>
         <footer>
             <div id="links" >
                 <a href="index.html">Project: Save Us Home</a>
