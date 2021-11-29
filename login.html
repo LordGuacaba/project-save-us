@@ -18,13 +18,19 @@
                 <li><a href="create-account.html">Create Account</a></li>
             </ul>
          </nav>
+        <script>
+             // Provides functionality for the search submissions button.
+             function login() {
+                 window.location.href = "account-page.html"
+             }
+         </script>
         <div align="center">
             <form method = post action = account-page.html>
                 <label> UserName:</label><br>
                 <input type="text", id = "User" required> <br>
                 <label> Password:</label><br>
                 <input type="password", id = "password" required> <br>
-                <input type="submit" value="Login">
+                <button onclick="login()">Login</button>
                 <a href="report.html"><span class="psw">Forgot password?</span></a>
             </form>
         </div>>
